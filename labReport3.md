@@ -58,7 +58,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-
+The reverseInPlace method didn't reverse the array as it was supposed to. The update fixes this by swapping each element with its counterpart from the other end of the array, this process is repeated for the first half of the array, effectively reversing the order of all elements and solving the initial issue.
 
 # Part 2: Researching Commands
   ## Type Command
