@@ -61,3 +61,37 @@ static int[] reversed(int[] arr) {
 
 
 # Part 2: Researching Commands
+  ## Find Command
+   ### Example 1
+  ```
+find ./technical -type d
+```
+
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+
+   ### Example 2
+  
+  ## Name Command  
+   ### Example 1
+
+   ### Example 2
+  
+  ## Size Command  
+   ### Example 1
+
+   ### Example 2
+
+  ## Max Depth Command  
+   ### Example 1
+
+   ### Example 2
