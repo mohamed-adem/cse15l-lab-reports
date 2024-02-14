@@ -1,6 +1,6 @@
 # Part 1: Bugs
   ## Failure Inducing Input
-    ```java
+```java
 @Test
 public void testReversedFailure() {
     int[] input = {1, 2, 3, 4};
@@ -9,6 +9,7 @@ public void testReversedFailure() {
     assertArrayEquals("The reversed array does not match the expected output", expected, result);
 }
 ```
+
  
 
   ## Non-Failure Inducing Input
