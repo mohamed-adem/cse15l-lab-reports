@@ -176,8 +176,9 @@ find ./technical -maxdepth 1
    ```
 find ./technical -maxdepth 2
 ```
-./technical
-./technical/government
-./technical/plos
-./technical/biomed
-./technical/911report
+./technical  
+./technical/government  
+./technical/plos   
+./technical/biomed  
+./technical/911report  
+(There was a lot more, but I cut it down)
