@@ -25,7 +25,8 @@ public void testReversedNoFailure() {
 
 
   ## Symptom
-    abc
+    ![Image](labReport3testSuccess.png)
+    ![Image](labReport3testFail.png)
 
   ## The Bug
     
