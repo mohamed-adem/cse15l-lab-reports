@@ -61,7 +61,8 @@ static int[] reversed(int[] arr) {
 
 
 # Part 2: Researching Commands
-  ## Find Command
+  ## Type Command
+  It outputs the files of a certain type that you input alongside it. This helps figure out how many of a certain file type there are. 
    ### Example 1
   ```
 find ./technical -type d
@@ -91,7 +92,8 @@ find ./technical -type f -name "*.txt"
 ./technical/911report/chapter-11.txt  
 (This is just a small part of the output, the entire terminal was filled"
   
-  ## Name Command  
+  ## Name Command 
+  This command searches for the location of whatever you input. It could be used to find the exact location of a specific file, or even be used to count how many of a .txt files are in a directory.
    ### Example 1
    ```
 find ./technical -name "chapter-1.txt"
@@ -121,6 +123,7 @@ find ./technical/911report -name "*.txt"
 ./technical/911report/chapter-11.txt    
   
   ## Size Command  
+  This command lists all the files of a certain size. This is useful to see if there are any extremely large or small files.
    ### Example 1
 ```
 find ./technical -type f -size +100k
@@ -162,6 +165,7 @@ find ./technical/biomed -type f -size -10k
 ./technical/biomed/1471-2490-3-2.txt  
 ./technical/biomed/1471-2334-3-13.txt  
   ## Max Depth Command  
+  This command changes how deep the find command goes into the directory. This is useful if you don't want to search any of the deeper directories. 
    ### Example 1
    ```
 find ./technical -maxdepth 1
@@ -182,3 +186,6 @@ find ./technical -maxdepth 2
 ./technical/biomed  
 ./technical/911report  
 (There was a lot more, but I cut it down)
+
+# Sources
+I used ChatGPT to help me with Part 2, I asked it to show me commands that could be used alongside the find command. 
