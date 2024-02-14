@@ -13,7 +13,16 @@ public void testReversedFailure() {
  
 
   ## Non-Failure Inducing Input
-    abc
+```java
+@Test
+public void testReversedNoFailure() {
+    int[] input = {};
+    int[] expected = {};
+    int[] result = ArrayExamples.reversed(input);
+    assertArrayEquals("The reversed array of an empty input should also be empty", expected, result);
+}
+```
+
 
   ## Symptom
     abc
