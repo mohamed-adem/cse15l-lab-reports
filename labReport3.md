@@ -28,7 +28,7 @@ public void testReversedNoFailure() {
     abc
 
   ## The Bug
-    ### Before Code Change
+    
 ### Before the Code Change:
 
 The original implementation of the `reversed` method in `ArrayExamples.java` incorrectly assigns values to the original array `arr` within the loop, and then mistakenly returns `arr`, the original array, instead of a new array with the elements reversed.
