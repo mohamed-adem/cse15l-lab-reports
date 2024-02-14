@@ -80,6 +80,16 @@ find ./technical -type d
 ./technical/911report  
 
    ### Example 2
+   ```
+find ./technical -type f -name "*.txt"
+```
+./technical/911report/chapter-9.txt   
+./technical/911report/chapter-8.txt  
+./technical/911report/preface.txt  
+./technical/911report/chapter-12.txt  
+./technical/911report/chapter-10.txt  
+./technical/911report/chapter-11.txt  
+(This is just a small part of the output, the entire terminal was filled"
   
   ## Name Command  
    ### Example 1
