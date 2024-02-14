@@ -163,5 +163,21 @@ find ./technical/biomed -type f -size -10k
 ./technical/biomed/1471-2334-3-13.txt  
   ## Max Depth Command  
    ### Example 1
+   ```
+find ./technical -maxdepth 1
+```
+./technical  
+./technical/government  
+./technical/plos  
+./technical/biomed  
+./technical/911report  
 
    ### Example 2
+   ```
+find ./technical -maxdepth 2
+```
+./technical
+./technical/government
+./technical/plos
+./technical/biomed
+./technical/911report
