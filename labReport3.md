@@ -67,17 +67,17 @@ static int[] reversed(int[] arr) {
 find ./technical -type d
 ```
 
-./technical
-./technical/government
-./technical/government/About_LSC
-./technical/government/Env_Prot_Agen
-./technical/government/Alcohol_Problems
-./technical/government/Gen_Account_Office
-./technical/government/Post_Rate_Comm
-./technical/government/Media
-./technical/plos
-./technical/biomed
-./technical/911report
+./technical  
+./technical/government  
+./technical/government/About_LSC  
+./technical/government/Env_Prot_Agen  
+./technical/government/Alcohol_Problems  
+./technical/government/Gen_Account_Office  
+./technical/government/Post_Rate_Comm  
+./technical/government/Media  
+./technical/plos  
+./technical/biomed  
+./technical/911report  
 
    ### Example 2
   
